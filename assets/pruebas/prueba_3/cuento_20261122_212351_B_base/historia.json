@@ -1,0 +1,84 @@
+{
+  "titulo": "El zorro que buscaba la luna",
+  "personaje_visual": "Small red-furred fox, short ears, brown fur, white paws, red scarf",
+  "escenario_visual": "Forest clearing at dusk",
+  "escenas": [
+    {
+      "texto": "Un zorro pequeño salió de su nido para buscar la luna que se había caído en el bosque.",
+      "accion_imagen": "Little fox stepping out of den",
+      "sonido": "soft wind, distant birds, footsteps",
+      "numero": 1,
+      "voz": "escena_01_voz.wav",
+      "ambiente": "escena_01_ambiente.wav",
+      "imagen": "escena_01.png",
+      "prompt_imagen": "Little fox stepping out of den, children's picture book watercolor illustration, soft pastel colors, friendly shapes"
+    },
+    {
+      "texto": "Caminó por los senderos hasta encontrar una gran mancha blanca en el suelo, como si la luna hubiera caído.",
+      "accion_imagen": "Fox looking at glowing white patch",
+      "sonido": "breeze, crickets, hum",
+      "numero": 2,
+      "voz": "escena_02_voz.wav",
+      "ambiente": "escena_02_ambiente.wav",
+      "imagen": "escena_02.png",
+      "prompt_imagen": "Fox looking at glowing white patch, children's picture book watercolor illustration, soft pastel colors, friendly shapes"
+    },
+    {
+      "texto": "El zorro se acercó con cuidado, pero la luz brillaba más allá de sus patas, como si tuviera vida propia.",
+      "accion_imagen": "Fox kneeling near glowing spot",
+      "sonido": "leaves, soft wind, chime",
+      "numero": 3,
+      "voz": "escena_03_voz.wav",
+      "ambiente": "escena_03_ambiente.wav",
+      "imagen": "escena_03.png",
+      "prompt_imagen": "Fox kneeling near glowing spot, children's picture book watercolor illustration, soft pastel colors, friendly shapes"
+    },
+    {
+      "texto": "Decidió tocarla con su pata, y de pronto, la luna se movió, levantándose lentamente hacia el cielo.",
+      "accion_imagen": "Fox touching glowing moon",
+      "sonido": "crickets, footsteps, fire",
+      "numero": 4,
+      "voz": "escena_04_voz.wav",
+      "ambiente": "escena_04_ambiente.wav",
+      "imagen": "escena_04.png",
+      "prompt_imagen": "Fox touching glowing moon, children's picture book watercolor illustration, soft pastel colors, friendly shapes"
+    },
+    {
+      "texto": "La luna volvió a brillar, y el zorro sonrió, sabiendo que nunca volvería a caer.",
+      "accion_imagen": "Fox watching moon rise",
+      "sonido": "birds, wind, hum",
+      "numero": 5,
+      "voz": "escena_05_voz.wav",
+      "ambiente": "escena_05_ambiente.wav",
+      "imagen": "escena_05.png",
+      "prompt_imagen": "Fox watching moon rise, children's picture book watercolor illustration, soft pastel colors, friendly shapes"
+    }
+  ],
+  "idea": "Un zorro pequeño sale a buscar la luna que se cayó en el bosque",
+  "genero": "Infantil",
+  "config": {
+    "nombre": "B_base",
+    "usar_ficha_personaje": false,
+    "semilla_fija": false,
+    "semilla": 1234,
+    "ancho": 768,
+    "alto": 768,
+    "pasos_imagen": 25,
+    "guidance": 7.0,
+    "prompt_negativo": "text, watermark, signature, blurry, lowres, deformed, extra fingers, extra limbs, cropped",
+    "motor_ambiente": "sintetico",
+    "pasos_audio": 50,
+    "guidance_audio": 4.0,
+    "candidatos_audio": 3,
+    "duracion_ambiente": 10.0,
+    "voz": "es_MX-claude-high",
+    "velocidad_voz": 1.05,
+    "variacion_tono_voz": 0.667,
+    "variacion_ritmo_voz": 0.8,
+    "pausa_oracion": 0.45,
+    "cuantizar_llm_4bit": true,
+    "temperatura": 0.7,
+    "max_tokens": 1800,
+    "reintentos_llm": 3
+  }
+}

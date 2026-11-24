@@ -1,0 +1,84 @@
+{
+  "titulo": "La Sombra Voladora",
+  "personaje_visual": "8-year-old girl, brown hair, blue dress, white shoes, green scarf",
+  "escenario_visual": "Forest clearing at dusk",
+  "escenas": [
+    {
+      "texto": "Lila notaba que su sombra volaba cada vez que caminaba por el bosque. No entendía por qué, pero desde los cinco años, su sombra se movía como si tuviera vida propia. Se quedó mirándola, sorprendida, mientras se elevaba entre los árboles.",
+      "accion_imagen": "Girl walking, shadow floating above her",
+      "sonido": "soft wind, breeze, crickets, hum",
+      "numero": 1,
+      "voz": "escena_01_voz.wav",
+      "ambiente": "escena_01_ambiente.wav",
+      "imagen": "escena_01.png",
+      "prompt_imagen": "Girl walking, shadow floating above her, noir mystery illustration, muted teal and amber palette, dramatic lighting"
+    },
+    {
+      "texto": "Buscó respuestas en libros antiguos, preguntó a los ancianos del pueblo, incluso hizo experimentos con lápices y linternas. Nada explicaba el fenómeno. Solo sabía que su sombra nunca se detenía ni se atrevía a tocar el suelo.",
+      "accion_imagen": "Girl reading old books under tree",
+      "sonido": "distant birds, wind, leaves, chime",
+      "numero": 2,
+      "voz": "escena_02_voz.wav",
+      "ambiente": "escena_02_ambiente.wav",
+      "imagen": "escena_02.png",
+      "prompt_imagen": "Girl reading old books under tree, noir mystery illustration, muted teal and amber palette, dramatic lighting"
+    },
+    {
+      "texto": "Un día, encontró una piedra con símbolos que brillaban al atardecer. Al tocarla, su sombra se dobló y pareció hablarle. Le dijo que era un antiguo tesoro de los primeros habitantes del bosque.",
+      "accion_imagen": "Girl touching glowing stone, shadow trembling",
+      "sonido": "fire, wind, footsteps, crickets",
+      "numero": 3,
+      "voz": "escena_03_voz.wav",
+      "ambiente": "escena_03_ambiente.wav",
+      "imagen": "escena_03.png",
+      "prompt_imagen": "Girl touching glowing stone, shadow trembling, noir mystery illustration, muted teal and amber palette, dramatic lighting"
+    },
+    {
+      "texto": "Volvió a la piedra cada noche, pero su sombra ya no respondía. En cambio, parecía observarla con ojos que no tenía. Lila comenzó a temer que su sombra fuera más que una proyección… tal vez un alma.",
+      "accion_imagen": "Girl standing alone, shadow staring silently",
+      "sonido": "soft wind, owl, leaves, hum",
+      "numero": 4,
+      "voz": "escena_04_voz.wav",
+      "ambiente": "escena_04_ambiente.wav",
+      "imagen": "escena_04.png",
+      "prompt_imagen": "Girl standing alone, shadow staring silently, noir mystery illustration, muted teal and amber palette, dramatic lighting"
+    },
+    {
+      "texto": "Una mañana, al despertar, su sombra estaba allí, flotando sobre la cama. No se movía. Lila sonrió: ahora entendía. Su sombra no volaba por miedo, sino porque era parte de ella. Y así, jamás se separaría.",
+      "accion_imagen": "Girl asleep, shadow floating gently above bed",
+      "sonido": "wind, soft breeze, water, hum",
+      "numero": 5,
+      "voz": "escena_05_voz.wav",
+      "ambiente": "escena_05_ambiente.wav",
+      "imagen": "escena_05.png",
+      "prompt_imagen": "Girl asleep, shadow floating gently above bed, noir mystery illustration, muted teal and amber palette, dramatic lighting"
+    }
+  ],
+  "idea": "Una niña se obsesiona con saber por qué su sombra puede volar y vivirá toda su vida buscando la respuesta",
+  "genero": "Misterio",
+  "config": {
+    "nombre": "B_base",
+    "usar_ficha_personaje": false,
+    "semilla_fija": false,
+    "semilla": 1234,
+    "ancho": 768,
+    "alto": 768,
+    "pasos_imagen": 25,
+    "guidance": 7.0,
+    "prompt_negativo": "text, watermark, signature, blurry, lowres, deformed, extra fingers, extra limbs, cropped",
+    "motor_ambiente": "sintetico",
+    "pasos_audio": 50,
+    "guidance_audio": 4.0,
+    "candidatos_audio": 3,
+    "duracion_ambiente": 10.0,
+    "voz": "es_MX-claude-high",
+    "velocidad_voz": 1.05,
+    "variacion_tono_voz": 0.667,
+    "variacion_ritmo_voz": 0.8,
+    "pausa_oracion": 0.45,
+    "cuantizar_llm_4bit": true,
+    "temperatura": 0.7,
+    "max_tokens": 1800,
+    "reintentos_llm": 3
+  }
+}

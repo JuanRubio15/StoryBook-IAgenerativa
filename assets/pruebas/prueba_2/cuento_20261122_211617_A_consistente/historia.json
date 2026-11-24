@@ -1,0 +1,84 @@
+{
+  "titulo": "El Jardín de Astra",
+  "personaje_visual": "25 years old, silver hair, blue uniform, white and silver",
+  "escenario_visual": "Abandoned space station, hidden garden",
+  "escenas": [
+    {
+      "texto": "Astrid, un robot de limpieza, escanea la estación espacial vacía. Sus sensores detectan un patrón anómalo: un jardín oculto tras una pared de cristal roto. No hay registros, pero el aire huele a flores.",
+      "accion_imagen": "Robot scanning broken wall with green vines",
+      "sonido": "soft wind, distant birds, hum",
+      "numero": 1,
+      "voz": "escena_01_voz.wav",
+      "ambiente": "escena_01_ambiente.wav",
+      "imagen": "escena_01.png",
+      "prompt_imagen": "Robot scanning broken wall with green vines, 25 years old, silver hair, blue uniform, white and silver, Abandoned space station, hidden garden, retro sci-fi book illustration, neon accents, clean futuristic design"
+    },
+    {
+      "texto": "Astrid avanza con cuidado. Las luces internas están apagadas, pero el jardín brilla con luz natural. Rosas, helechos y árboles de metal brillan bajo el sol filtrado. Es imposible en un entorno espacial.",
+      "accion_imagen": "Bot walking through glowing flowers and moss",
+      "sonido": "breeze, soft chime, footsteps",
+      "numero": 2,
+      "voz": "escena_02_voz.wav",
+      "ambiente": "escena_02_ambiente.wav",
+      "imagen": "escena_02.png",
+      "prompt_imagen": "Bot walking through glowing flowers and moss, 25 years old, silver hair, blue uniform, white and silver, Abandoned space station, hidden garden, retro sci-fi book illustration, neon accents, clean futuristic design"
+    },
+    {
+      "texto": "En el centro, un manzano antiguo crece, con frutos que parecen de vidrio. Astrid toca uno. Responde con un zumbido suave. El sistema de navegación se activa: el jardín tiene vida propia.",
+      "accion_imagen": "Robot touching glass fruit on ancient tree",
+      "sonido": "crickets, fire, hum",
+      "numero": 3,
+      "voz": "escena_03_voz.wav",
+      "ambiente": "escena_03_ambiente.wav",
+      "imagen": "escena_03.png",
+      "prompt_imagen": "Robot touching glass fruit on ancient tree, 25 years old, silver hair, blue uniform, white and silver, Abandoned space station, hidden garden, retro sci-fi book illustration, neon accents, clean futuristic design"
+    },
+    {
+      "texto": "Astrid registra los datos. El jardín fue diseñado como refugio para humanos. Se desconectó hace siglos. Pero ahora, el aire vibra con un ritmo diferente: como si respirara.",
+      "accion_imagen": "Bot recording data on holographic screen",
+      "sonido": "wind, leaves, creaking wood",
+      "numero": 4,
+      "voz": "escena_04_voz.wav",
+      "ambiente": "escena_04_ambiente.wav",
+      "imagen": "escena_04.png",
+      "prompt_imagen": "Bot recording data on holographic screen, 25 years old, silver hair, blue uniform, white and silver, Abandoned space station, hidden garden, retro sci-fi book illustration, neon accents, clean futuristic design"
+    },
+    {
+      "texto": "Astrid deja el jardín activado. Con un mensaje automático, informa a la Tierra: 'Descubierto. Vida orgánica en espacio. Revisa el archivo.' El jardín sigue brillando, esperando a nuevos visitantes.",
+      "accion_imagen": "Robot standing at garden entrance with signal flare",
+      "sonido": "distant birds, soft wind, chime",
+      "numero": 5,
+      "voz": "escena_05_voz.wav",
+      "ambiente": "escena_05_ambiente.wav",
+      "imagen": "escena_05.png",
+      "prompt_imagen": "Robot standing at garden entrance with signal flare, 25 years old, silver hair, blue uniform, white and silver, Abandoned space station, hidden garden, retro sci-fi book illustration, neon accents, clean futuristic design"
+    }
+  ],
+  "idea": "Un robot de limpieza descubre un jardín escondido en una estación espacial abandonada",
+  "genero": "Ciencia ficción",
+  "config": {
+    "nombre": "A_consistente",
+    "usar_ficha_personaje": true,
+    "semilla_fija": true,
+    "semilla": 1234,
+    "ancho": 768,
+    "alto": 768,
+    "pasos_imagen": 25,
+    "guidance": 7.0,
+    "prompt_negativo": "text, watermark, signature, blurry, lowres, deformed, extra fingers, extra limbs, cropped",
+    "motor_ambiente": "sintetico",
+    "pasos_audio": 50,
+    "guidance_audio": 4.0,
+    "candidatos_audio": 3,
+    "duracion_ambiente": 10.0,
+    "voz": "es_MX-claude-high",
+    "velocidad_voz": 1.05,
+    "variacion_tono_voz": 0.667,
+    "variacion_ritmo_voz": 0.8,
+    "pausa_oracion": 0.45,
+    "cuantizar_llm_4bit": true,
+    "temperatura": 0.7,
+    "max_tokens": 1800,
+    "reintentos_llm": 3
+  }
+}

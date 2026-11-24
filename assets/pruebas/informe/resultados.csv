@@ -1,0 +1,7 @@
+prueba,genero,configuracion,titulo,guion_s,voz_s,ambiente_s,imagenes_s,total_min,indicador_color,carpeta
+1,Misterio,A_consistente,La Sombra Volante,213.0,22.7,1.6,123.9,6.0,0.616,C:/Users/juana/Documents/storybook/assets/pruebas/prueba_1/cuento_20261123_114925_A_consistente
+1,Misterio,B_base,La Sombra Voladora,133.0,21.6,1.6,117.1,4.6,0.496,C:/Users/juana/Documents/storybook/assets/pruebas/prueba_1/cuento_20261122_211143_B_base
+2,Ciencia ficción,A_consistente,El Jardín de Astra,57.8,4.3,0.7,87.7,2.5,0.513,C:/Users/juana/Documents/storybook/assets/pruebas/prueba_2/cuento_20261122_211617_A_consistente
+2,Ciencia ficción,B_base,El Jardín de Neptuno,55.7,3.4,0.8,87.1,2.5,0.324,C:/Users/juana/Documents/storybook/assets/pruebas/prueba_2/cuento_20261122_211847_B_base
+3,Infantil,A_consistente,El Zorro que Busca la Luna,64.9,2.8,0.9,88.2,2.6,0.557,C:/Users/juana/Documents/storybook/assets/pruebas/prueba_3/cuento_20261122_212115_A_consistente
+3,Infantil,B_base,El zorro que buscaba la luna,108.7,2.1,0.7,86.3,3.3,0.578,C:/Users/juana/Documents/storybook/assets/pruebas/prueba_3/cuento_20261122_212351_B_base

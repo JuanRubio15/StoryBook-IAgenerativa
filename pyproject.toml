@@ -1,0 +1,31 @@
+[project]
+name = "storybook"
+version = "0.1.0"
+description = "Cuentos ilustrados con narración y ambiente sonoro generados 100 % en local"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "bitsandbytes",
+    "diffusers",
+    "safetensors",
+    "huggingface_hub",
+    "scipy",
+    "numpy",
+    "pillow",
+    "piper-tts",
+    "pygame",
+]
+
+# PyTorch con CUDA: sin esto, uv instala la versión solo-CPU en Windows.
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

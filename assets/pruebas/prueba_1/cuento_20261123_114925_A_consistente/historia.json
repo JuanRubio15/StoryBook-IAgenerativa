@@ -1,0 +1,84 @@
+{
+  "titulo": "La Sombra Volante",
+  "personaje_visual": "9 years old, brown hair, blue dress, white shoes, green hat",
+  "escenario_visual": "Forest clearing near the old stone bridge",
+  "escenas": [
+    {
+      "texto": "Luna siempre vio su sombra volar por las noches, pero nunca entendió por qué. A los nueve años, mientras jugaba bajo el árbol más viejo, notó que su sombra se movía solo cuando ella dormía. Desde entonces, comenzó a investigar.",
+      "accion_imagen": "Luna mira hacia el cielo con una mano en el pecho",
+      "sonido": "soft wind, crickets, distant birds, hum",
+      "numero": 1,
+      "voz": "escena_01_voz.wav",
+      "ambiente": "escena_01_ambiente.wav",
+      "imagen": "escena_01.png",
+      "prompt_imagen": "Luna mira hacia el cielo con una mano en el pecho, 9 years old, brown hair, blue dress, white shoes, green hat, Forest clearing near the old stone bridge, noir mystery illustration, muted teal and amber palette, dramatic lighting"
+    },
+    {
+      "texto": "Buscó libros en la biblioteca del pueblo, preguntó a los ancianos y hasta se fue a la montaña. Nadie sabía nada. Solo decían que las sombras volaban en los tiempos antiguos, cuando el mundo era más mágico.",
+      "accion_imagen": "Luna sentada en una silla de madera con libros abiertos",
+      "sonido": "wind, leaves, footsteps, soft chime",
+      "numero": 2,
+      "voz": "escena_02_voz.wav",
+      "ambiente": "escena_02_ambiente.wav",
+      "imagen": "escena_02.png",
+      "prompt_imagen": "Luna sentada en una silla de madera con libros abiertos, 9 years old, brown hair, blue dress, white shoes, green hat, Forest clearing near the old stone bridge, noir mystery illustration, muted teal and amber palette, dramatic lighting"
+    },
+    {
+      "texto": "Un día, encontró un relicario en el suelo del bosque. Tenía dibujos de sombras volando sobre árboles. Al tocarlo, escuchó un susurro: 'Solo vuelas cuando el sol se oculta'.",
+      "accion_imagen": "Luna examina un relicario con brillo dorado",
+      "sonido": "fire, wind, crickets, distant owl",
+      "numero": 3,
+      "voz": "escena_03_voz.wav",
+      "ambiente": "escena_03_ambiente.wav",
+      "imagen": "escena_03.png",
+      "prompt_imagen": "Luna examina un relicario con brillo dorado, 9 years old, brown hair, blue dress, white shoes, green hat, Forest clearing near the old stone bridge, noir mystery illustration, muted teal and amber palette, dramatic lighting"
+    },
+    {
+      "texto": "Volvió a la orilla del río y observó cómo su sombra se elevaba justo antes de la puesta de sol. Se quedó quieta, esperando. El aire se calmó, y todo parecía estar conectado con el silencio del atardecer.",
+      "accion_imagen": "Luna de pie frente al río, sombra flotando sobre el agua",
+      "sonido": "water, soft breeze, hum, footsteps",
+      "numero": 4,
+      "voz": "escena_04_voz.wav",
+      "ambiente": "escena_04_ambiente.wav",
+      "imagen": "escena_04.png",
+      "prompt_imagen": "Luna de pie frente al río, sombra flotando sobre el agua, 9 years old, brown hair, blue dress, white shoes, green hat, Forest clearing near the old stone bridge, noir mystery illustration, muted teal and amber palette, dramatic lighting"
+    },
+    {
+      "texto": "Entendió entonces: su sombra no vuela porque sea mágica, sino porque también siente el mundo. Cuando duerme, el universo le permite volar. Y cada vez que se acerca al silencio, su sombra se une al viento.",
+      "accion_imagen": "Luna sonriendo mientras su sombra flota libremente",
+      "sonido": "wind, leaves, soft chime, distant birds",
+      "numero": 5,
+      "voz": "escena_05_voz.wav",
+      "ambiente": "escena_05_ambiente.wav",
+      "imagen": "escena_05.png",
+      "prompt_imagen": "Luna sonriendo mientras su sombra flota libremente, 9 years old, brown hair, blue dress, white shoes, green hat, Forest clearing near the old stone bridge, noir mystery illustration, muted teal and amber palette, dramatic lighting"
+    }
+  ],
+  "idea": "Una niña se obsesiona con saber por qué su sombra puede volar y vivirá toda su vida buscando la respuesta",
+  "genero": "Misterio",
+  "config": {
+    "nombre": "A_consistente",
+    "usar_ficha_personaje": true,
+    "semilla_fija": true,
+    "semilla": 1234,
+    "ancho": 768,
+    "alto": 768,
+    "pasos_imagen": 25,
+    "guidance": 7.0,
+    "prompt_negativo": "text, watermark, signature, blurry, lowres, deformed, extra fingers, extra limbs, cropped",
+    "motor_ambiente": "sintetico",
+    "pasos_audio": 50,
+    "guidance_audio": 4.0,
+    "candidatos_audio": 3,
+    "duracion_ambiente": 10.0,
+    "voz": "es_MX-claude-high",
+    "velocidad_voz": 1.05,
+    "variacion_tono_voz": 0.667,
+    "variacion_ritmo_voz": 0.8,
+    "pausa_oracion": 0.45,
+    "cuantizar_llm_4bit": true,
+    "temperatura": 0.7,
+    "max_tokens": 1800,
+    "reintentos_llm": 3
+  }
+}

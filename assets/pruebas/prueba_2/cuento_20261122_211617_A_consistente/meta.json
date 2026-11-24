@@ -1,0 +1,31 @@
+{
+  "hardware": {
+    "python": "3.12.14",
+    "sistema": "Windows-11-10.0.26300-SP0",
+    "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "torch": "2.14.1+cu126",
+    "cuda_disponible": true,
+    "versiones": {
+      "transformers": "5.23.0",
+      "diffusers": "0.43.0",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "piper-tts": "1.8.0",
+      "pygame": "2.6.1"
+    },
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "vram_gb": 6.0
+  },
+  "tiempos": {
+    "guion_s": 57.8,
+    "voz_s": 4.3,
+    "ambiente_s": 0.7,
+    "imagenes_s": 87.7
+  },
+  "modelos": {
+    "llm": "Qwen/Qwen3-4B-Instruct-2507",
+    "imagen": "stabilityai/stable-diffusion-xl-base-1.0",
+    "audio": "cvssp/audioldm-s-full-v2",
+    "voz": "es_MX-claude-high"
+  }
+}
